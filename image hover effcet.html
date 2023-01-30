@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.fortuner {
+  position: relative;
+  width: 50%;
+  margin-left: 50%;
+}
+.rubicon {
+  position: relative;
+  width: 50%;
+  margin-left: 50%;
+}
+
+.thar {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: green;
+}
+
+.overlay1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: red;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: blue;
+}
+
+
+.thar:hover .overlay {
+  opacity: 1;
+}
+
+.fortuner:hover .overlay1 {
+  opacity: 1;
+}
+
+.rubicon:hover .overlay2 {
+  opacity: 1;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h2>off  road cars </h2>
+
+
+<div class="fortuner">
+  <img src="https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https:%2F%2Fcdni.autocarindia.com%2FExtraImages%2F20210218035907_Fortuner_off_road_tracking_.jpg&h=795&w=1200&c=1" alt="car" class="image">
+  <div class="overlay1">
+    <div class="text">fortuner</div>
+  </div>
+</div>
+
+<div class="thar">
+  <img src="https://4.imimg.com/data4/DI/AB/ANDROID-39272565/product.jpeg" alt="car" class="image">
+  <div class="overlay">
+    <div class="text">thar</div>
+  </div>
+</div>
+
+<div class="rubicon">
+  <img src="https://557cea3b16ed5600cfd9-d42edd5caf4504bebe691ee589d1629a.ssl.cf1.rackcdn.com/1C4HJXCG1LW322858/0ff6ec15dea85071e74fd903892700d2.jpg" alt="car" class="image">
+  <div class="overlay2">
+    <div class="text">rubicon</div>
+  </div>
+</div>
+
+
+</body>
+</html>
